@@ -91,7 +91,7 @@
 #nav-list li a {
     margin: 0px 10px;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(109, 29, 63);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
@@ -99,15 +99,127 @@
 #head_sec3 {
     /* width: 20%;*/
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /*--------------------------main------------------------------------------------------*/
 #main {
     width: 100vw;
     height: 80vh;
-    background-color: rgb(18, 3, 6);
+    background-color: rgb(193, 72, 96);
 
 
+}
+
+#main-sec1 {
+    text-align: center;
+    color: aliceblue;
+    height: 20vh;
+}
+
+#main-sec1 img {
+
+
+    width: 2000px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+#main-sec2 {
+    padding: 10px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vw 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+        "tit tit tit "
+        "proj1 proj2 proj3"
+        "proj4 proj5 proj6";
+
+}
+
+#main-sec2 h2 {
+    color: rgb(0, 0, 0);
+    grid-area: tit;
+}
+
+#main-sec2-project1 {
+    background-color: rgb(177, 121, 164);
+    grid-area: proj1;
+}
+
+#main-sec2-project1 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj1;
+}
+
+#main-sec2-project2 {
+    background-color: rgb(157, 81, 139);
+    grid-area: proj2;
+}
+
+#main-sec2-project2 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj2;
+}
+
+#main-sec2-project3 {
+    background-color: rgb(157, 81, 139);
+    grid-area: proj3;
+}
+
+#main-sec2-project3 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj3;
+}
+
+#main-sec2-project4 {
+    background-color: rgb(157, 81, 139);
+    grid-area: proj4;
+}
+
+#main-sec2-project4 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj4;
+}
+
+#main-sec2-project5 {
+    background-color: rgb(157, 81, 139);
+    grid-area: proj5;
+}
+
+#main-sec2-project5 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj5;
+}
+
+#main-sec2-project6 {
+    background-color: rgb(101, 15, 60);
+    grid-area: proj6;
+}
+
+#main-sec2-project6 h1 {
+    text-align: center;
+    color: antiquewhite;
+    grid-area: proj6;
 }
 
 /*--------------------------foot------------------------------------------------------*/
