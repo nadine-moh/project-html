@@ -9,9 +9,60 @@
 /*--------------------------container------------------------------------------------------*/
 #container {
 
-    height: 100vw;
-    width: 100vh;
+    height: 100vh;
+    width: 100vw;
     background-color: pink;
+
+
+}
+
+/*--------------------------header------------------------------------------------------*/
+#head {
+
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(142, 13, 34);
+    display: flex;
+
+}
+
+.head_sec {
+    border: 1px dotted black;
+    height: 100%;
+
+    background-color: rgb(240, 232, 232);
+}
+
+#head_sec1 {
+
+    /* width: 20%;*/
+    flex: 2;
+}
+
+#head_sec2 {
+    /* width: 20%;*/
+    flex: 6;
+}
+
+#head_sec3 {
+    /* width: 20%;*/
+    flex: 4;
+}
+
+/*--------------------------main------------------------------------------------------*/
+#main {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(18, 3, 6);
+
+
+}
+
+/*--------------------------foot------------------------------------------------------*/
+#foot {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(195, 9, 40);
 
 
 }
