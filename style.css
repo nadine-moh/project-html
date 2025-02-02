@@ -120,22 +120,32 @@
     background-color: rgb(193, 72, 96);
 
 
+
 }
 
 #main-sec1 {
     text-align: center;
-    color: aliceblue;
+    color: rgb(48, 51, 55);
     height: 20vh;
+    font-size: xx-large;
+
+
+
 }
 
 #main-sec1 img {
 
 
-    width: 2000px;
+    width: 300px;
     height: 200px;
-    border-radius: 100px;
-    margin: 10px;
+    border-radius: 10px;
+    /* margin: 10px;
+    padding-left: 5px; */
+    position: absolute;
+    left: 0;
+
 }
+
 
 #main-sec2 {
     padding: 10px;
@@ -154,20 +164,28 @@
 #main-sec2 h2 {
     color: rgb(0, 0, 0);
     grid-area: tit;
+    font-size: xx-large;
+    text-align: center;
+    /* left: 100; */
+    background-color: rgb(87, 53, 79);
+
+
 }
 
 #main-sec2-project1 {
     background-color: rgb(177, 121, 164);
     grid-area: proj1;
-    /* background-image: url("/sbhWSaIvTQWURrTRFnmDzQ.png"); */
+    /* background-image: url("sbhWSaIvTQWURrTRFnmDzQ.png"); */
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 50px;
 }
 
 #main-sec2-project1 h1 {
     text-align: center;
     color: antiquewhite;
     grid-area: proj1;
+    /* background-color: grey */
     /* cntrl k c (comment)
     cntrl k u (uncomment) */
 
@@ -176,6 +194,7 @@
 #main-sec2-project2 {
     background-color: rgb(157, 81, 139);
     grid-area: proj2;
+    border-radius: 50px;
 }
 
 #main-sec2-project2 h1 {
@@ -187,6 +206,7 @@
 #main-sec2-project3 {
     background-color: rgb(157, 81, 139);
     grid-area: proj3;
+    border-radius: 50px;
 }
 
 #main-sec2-project3 h1 {
@@ -198,6 +218,7 @@
 #main-sec2-project4 {
     background-color: rgb(157, 81, 139);
     grid-area: proj4;
+    border-radius: 50px;
 }
 
 #main-sec2-project4 h1 {
@@ -209,6 +230,7 @@
 #main-sec2-project5 {
     background-color: rgb(157, 81, 139);
     grid-area: proj5;
+    border-radius: 50px;
 }
 
 #main-sec2-project5 h1 {
@@ -220,18 +242,24 @@
 #main-sec2-project6 {
     background-color: rgb(101, 15, 60);
     grid-area: proj6;
+    border-radius: 50px;
 }
 
 #main-sec2-project6 h1 {
     text-align: center;
     color: antiquewhite;
     grid-area: proj6;
+
+
 }
 
 .project h3 {
     color: antiquewhite;
     text-align: left;
-    background-color: black;
+    background-color: rgb(37, 4, 4);
+    /* background-position: 10px; */
+
+    border-radius: 50px;
 
 
 }
@@ -239,20 +267,45 @@
 .main-sec h3 {
     flex-direction: column;
     align-items: right;
+
 }
 
+#main-sec3 li {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgb(109, 29, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    gap: 10;
+}
+
+/* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
 /*--------------------------foot------------------------------------------------------*/
 #foot {
     width: 100vw;
     height: 10vh;
     background-color: rgb(195, 9, 40);
-    text-align: center;
+    text-align: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-/*--------------------------Media Query------*/
+#foot1 h4 {
+
+    text-align: left;
+    color: antiquewhite;
+}
+
+#foot2 h1 {
+
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+
 
 /*--------------------------Small devices------*/
 /*--------------------------container------*/
