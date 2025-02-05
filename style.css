@@ -7,14 +7,6 @@
 }
 
 /*--------------------------container------------------------------------------------------*/
-#container {
-
-    height: 100vh;
-    width: 100vw;
-    background-color: pink;
-
-
-}
 
 /*--------------------------header------------------------------------------------------*/
 #head {
@@ -24,13 +16,6 @@
     background-color: rgb(142, 13, 34);
     display: flex;
 
-}
-
-.head_sec {
-    border: 1px dotted black;
-    height: 100%;
-
-    /* background-color: rgb(240, 232, 232);*/
 }
 
 #head_sec1 {
@@ -58,43 +43,27 @@
     justify-content: center;
 }
 
-#nav-list {
 
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
+
+
+.added-js {
+    width: 300px;
+    height: 300px;
+    border: 2px black;
+    background-color: brown;
 }
 
-#nav-list li {
-    margin: 0px 10px;
-    text-decoration: none;
-    color: antiquewhite;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
+
+.added-js2 {
+    width: 400px;
+    height: 400px;
+    border: 2px black;
+    background-color: rgb(205, 132, 132);
 }
 
-#nav-list li {
-    background-color: white;
-    color: rgb(142, 13, 34);
-
-}
-
-#nav-list li a:hover {
-    background-color: white;
-    color: rgb(142, 13, 34);
 
 
-}
 
-#nav-list li a {
-    margin: 0px 10px;
-    text-decoration: none;
-    color: rgb(109, 29, 63);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
 
 #head_sec3 {
     /* width: 20%;*/
@@ -111,6 +80,7 @@
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
+    font-size: xx-large;
 }
 
 /*--------------------------main------------------------------------------------------*/
@@ -124,9 +94,9 @@
 }
 
 #main-sec1 {
-    text-align: center;
+    text-align: left;
     color: rgb(48, 51, 55);
-    height: 20vh;
+    height: 100vh;
     font-size: xx-large;
 
 
@@ -147,39 +117,20 @@
 }
 
 
-#main-sec2 {
-    padding: 10px;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5vh 30vh 30vh;
-    gap: 10px;
-    grid-template-areas:
-        "tit tit tit "
-        "proj1 proj2 proj3"
-        "proj4 proj5 proj6";
-
-}
 
 #main-sec2 h2 {
     color: rgb(0, 0, 0);
-    grid-area: tit;
+
     font-size: xx-large;
     text-align: center;
     /* left: 100; */
     background-color: rgb(87, 53, 79);
+    justify-content: end;
 
 
 }
 
-#main-sec2-project1 {
-    background-color: rgb(177, 121, 164);
-    grid-area: proj1;
-    /* background-image: url("sbhWSaIvTQWURrTRFnmDzQ.png"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 50px;
-}
+
 
 #main-sec2-project1 h1 {
     text-align: center;
@@ -191,92 +142,46 @@
 
 }
 
-#main-sec2-project2 {
-    background-color: rgb(157, 81, 139);
-    grid-area: proj2;
-    border-radius: 50px;
+
+#input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    /* Add space inside */
+    border: 2px solid black;
+    /* Optional: makes it more visible */
 }
 
-#main-sec2-project2 h1 {
-    text-align: center;
-    color: antiquewhite;
-    grid-area: proj2;
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    /* Add space inside */
+    border: 2px solid black;
+    /* Optional: makes it more visible */
 }
 
-#main-sec2-project3 {
-    background-color: rgb(157, 81, 139);
-    grid-area: proj3;
-    border-radius: 50px;
-}
-
-#main-sec2-project3 h1 {
-    text-align: center;
-    color: antiquewhite;
-    grid-area: proj3;
-}
-
-#main-sec2-project4 {
-    background-color: rgb(157, 81, 139);
-    grid-area: proj4;
-    border-radius: 50px;
-}
-
-#main-sec2-project4 h1 {
-    text-align: center;
-    color: antiquewhite;
-    grid-area: proj4;
-}
-
-#main-sec2-project5 {
-    background-color: rgb(157, 81, 139);
-    grid-area: proj5;
-    border-radius: 50px;
-}
-
-#main-sec2-project5 h1 {
-    text-align: center;
-    color: antiquewhite;
-    grid-area: proj5;
-}
-
-#main-sec2-project6 {
-    background-color: rgb(101, 15, 60);
-    grid-area: proj6;
-    border-radius: 50px;
-}
-
-#main-sec2-project6 h1 {
-    text-align: center;
-    color: antiquewhite;
-    grid-area: proj6;
-
+#cont {
+    margin-top: 20px;
+    background-color: bisque;
 
 }
 
-.project h3 {
-    color: antiquewhite;
-    text-align: left;
-    background-color: rgb(37, 4, 4);
-    /* background-position: 10px; */
-
-    border-radius: 50px;
-
-
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.main-sec h3 {
-    flex-direction: column;
-    align-items: right;
-
-}
-
-#main-sec3 li {
-    margin: 0px 10px;
-    text-decoration: none;
-    color: rgb(109, 29, 63);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    gap: 10;
+.clear-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 /* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
@@ -495,14 +400,6 @@
             align-items: center;
         }
 
-        #nav-list li {
-            margin: 0px 10px;
-            text-decoration: none;
-            color: antiquewhite;
-            border: 1px solid white;
-            border-radius: 10px;
-
-        }
 
         #main-sec2 {
             padding: 10px;
@@ -542,55 +439,6 @@
             grid-area: proj2;
         }
 
-        #main-sec2-project2 h1 {
-            text-align: center;
-            color: antiquewhite;
-            grid-area: proj2;
-        }
-
-        #main-sec2-project3 {
-            background-color: rgb(157, 81, 139);
-            grid-area: proj3;
-        }
-
-        #main-sec2-project3 h1 {
-            text-align: center;
-            color: antiquewhite;
-            grid-area: proj3;
-        }
-
-        #main-sec2-project4 {
-            background-color: rgb(157, 81, 139);
-            grid-area: proj4;
-        }
-
-        #main-sec2-project4 h1 {
-            text-align: center;
-            color: antiquewhite;
-            grid-area: proj4;
-        }
-
-        #main-sec2-project5 {
-            background-color: rgb(157, 81, 139);
-            grid-area: proj5;
-        }
-
-        #main-sec2-project5 h1 {
-            text-align: center;
-            color: antiquewhite;
-            grid-area: proj5;
-        }
-
-        #main-sec2-project6 {
-            background-color: rgb(101, 15, 60);
-            grid-area: proj6;
-        }
-
-        #main-sec2-project6 h1 {
-            text-align: center;
-            color: antiquewhite;
-            grid-area: proj6;
-        }
 
 
     }
@@ -599,3 +447,51 @@
 
 /*--------------------------Larg devices------*/
 @media screen and (max-width:769px) {}
+
+.added-js {
+    width: 300px;
+    height: 300px;
+    border: 2px black;
+    background-color: brown;
+}
+
+
+.added-js2 {
+    width: 400px;
+    height: 400px;
+    border: 2px black;
+    background-color: rgb(205, 132, 132);
+}
+
+/* #cont {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+} */
+
+#input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    /* Add space inside */
+    border: 2px solid black;
+    /* Optional: makes it more visible */
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    /* Add space inside */
+    border: 2px solid black;
+    /* Optional: makes it more visible */
+}
+
+#cont {
+    margin-top: 20px;
+    background-color: bisque;
+
+}
